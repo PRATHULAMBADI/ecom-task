@@ -1,0 +1,101 @@
+body {
+    margin:0;
+    background-color: whitesmoke;
+  }
+
+  .navItems {
+    display: flex;
+  }
+
+  .navItem {
+    padding: 5px;
+  }
+
+  .navContainer {
+    padding: 10px 10px;
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .carousel-inner img {
+    width: 99vw;
+    height: 418px;
+    padding: 10px;
+  }
+  .img-text {
+    position: absolute;
+    bottom: 20px;
+    left: 47%;
+    color: white;
+  }
+
+  .todayOffers {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 10px;
+  }
+  .todayOffersHeading
+  {
+    margin-left: 10px;
+  }
+  .tileImage {
+    width: 50px;
+    height: 100px;
+  }
+
+  .tileHoler {
+    text-align: center;
+  }
+
+  .electronicsItemsHolder{
+    background-color: white;
+    margin: 10px 10px;
+  }
+  .electronicsItemsHeading{
+    padding: 10px 20px;
+  }  
+  .electronicsItemsAlign{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .electronicsItem{    
+    padding: 13px;
+  }
+
+  .footer {   
+    padding: 10px 10px;
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: flex-end;
+    align-items: baseline;
+    font-size: 12px;
+}
+.footerHeading{
+  padding:0 35px;
+
+}
+.todayOffersItem{
+  padding:10px;
+}
+.imageTileHolder{  
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imageTile{
+  width: calc(99%/3);
+}
